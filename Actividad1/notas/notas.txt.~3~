@@ -1,0 +1,16 @@
+Manual de comandos:
+cd             inicio
+ls             listado  
+ls -al         carpetas
+pwd            mostrar carpeta en la que estas
+cat            lo que esta en la nota en la que te encuentras
+clear          limpiar
+q              salir
+ctrl c         retroceder
+ctrl x, ctrl s guardar
+ctrl x, ctrl c salir
+echo           repite la ultima linea de comando
+history        muestra el historial
+echo >>        para repetir dos veces
+mkdir          para crear una carpeta
+emacs          para crear un texto dentro de una carpeta
