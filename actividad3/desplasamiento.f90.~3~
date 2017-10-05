@@ -1,0 +1,32 @@
+!
+!! desplasamiento.f90
+!! 
+!! Made by (Juan Botello Sandoval)
+!! Login   <maquinadelmal@ltsp86.example.com>
+!! 
+!! Started on  Mon Sep 18 11:26:42 2017 Juan Botello Sandoval
+!! Last update Time-stamp: <2017-sep-18.lunes 12:37:33 (maquinadelmal)>
+!
+ ! outputdata.f90
+
+  implicit none
+  real, dimension(100) :: x, y
+  real, (a - b, o - z)
+  integer :: i, j, t, l, m, n
+   
+
+  ! setup x and y with some data
+  do i = 1, 100
+     x = v0 * t * cos(a)
+     y = v0 * t * sin(a) - 1/2 * (g * t) * (g * t)
+     end do 
+  ! output data to a file
+  open(1, file='data1.dat', status='unknown')
+  do i=1,100
+     write(1,*) x(i), y(i)
+      
+  end do
+  close(1)
+
+end program outputdata
+
